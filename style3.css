@@ -370,3 +370,9 @@ body{
     text-decoration: none;
     color: black;
 }
+.imgbig1{
+    margin-top: -140px;
+    width: 600px;
+    height: 300px;
+    font-size: 80px;
+}

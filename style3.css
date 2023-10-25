@@ -362,4 +362,11 @@ body{
     margin-top: -35px;
     cursor: pointer;
 }
-.ttsk
+.ttsk{
+    text-decoration: none;
+    color: #535353;
+}
+.ttsk:hover{
+    text-decoration: none;
+    color: black;
+}

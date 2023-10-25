@@ -565,6 +565,14 @@ body{
     text-decoration: none;
     color: black;
 }
+.ttsk{
+    text-decoration: none;
+    color: #535353;
+}
+.ttsk:hover{
+    text-decoration: none;
+    color: black;
+}
 
 
 

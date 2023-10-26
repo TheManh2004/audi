@@ -705,7 +705,55 @@ body{
     font-size: 21px;
     color: white;
 }
-
+.lhct{
+    margin-top: 28px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 20px;
+    background-color: white;
+    color: #4c4c4c;
+    border: none;
+}
+.lhct:hover{
+    color: rgb(0, 0, 0);
+}
+.lhct:focus + .lhct-focus{
+    height: 100vh;
+}
+.lhct-focus{
+    width: 100%;
+    height: 0;
+    background-color: rgb(41, 41, 41,0.8);
+    position: fixed;
+    z-index: 100 !important;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+.lhct-focus-container{
+    width: 100%;
+    min-height: 350px;
+    background-color: white;
+}
+.caption-lhct{
+  
+    margin-left: 100px;
+}
+.imglhct{
+    width: 500px;
+    margin-left: 900px;
+    margin-top: -180px;
+}
+.caption1-lhct{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-left: 920px;
+    margin-top: -40px;
+    cursor: pointer;
+    width: 180px;
+}
 
 
 
